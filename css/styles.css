@@ -4,7 +4,7 @@
     --header-height: 3.5rem;
 
     /* Colors */
-    --first-color: hsl(5, 85%, 51%);
+    --first-color: hsl(8, 76%, 52%);
     --black-color: hsl(17, 18%, 19%);
     --black-color-light: hsl(0, 0%, 50%);
     --white-color: hsl(0, 0%, 95%);
@@ -12,7 +12,7 @@
     --text-color-light: hsl(0, 0%, 64%);
     --body-color: hsl(45, 29%, 97%);
     --container-color: hsl(45, 29%, 93%);
-    --yellow-color: hsl(45, 90%, 50%);
+    --yellow-color: hsla(45, 90%, 50%, 0.692);
     
     /* Typography */
     --body-font: 'Bai Jamjuree', sans-serif;
@@ -581,11 +581,15 @@ img{
 .projects__cards{
     padding: 1rem 1rem 2rem;
     transition: background-color .4s;
-    background-color: var(--yellow-color);
+    background-color: var(--first-color);
 }
 
-.projects__cards:hover{
+/* .projects__cards:hover{
     background-color: hsl(45, 29%, 90%);
+} */
+
+.projects__cards p{
+   color: var(--white-color);
 }
 
 .projects__image{
@@ -598,7 +602,8 @@ img{
     right: 1rem;
     bottom: -1.5rem;
     padding: 10px;
-    background-color: var(--first-color);
+    background-color: var(--black-color);
+    color: var(--white-color);
 }
 
 .projects__content{
@@ -655,15 +660,19 @@ img{
     transition: color .4s;
 }
 
-.projects__link:hover,
-.projects__link:hover i{
-    color: var(--first-color);
-}
-
 .projects__img{
     height: 250px;
 }
 
+.menu__button{
+    background-color: var(--black-color);
+    color: var(--white-color);
+    cursor: pointer;
+}
+
+.menu__button:hover{
+    background-color: var(--black-color);
+}
 /* Contact */
 .contact{
     padding-bottom: 0;
@@ -682,7 +691,7 @@ img{
     background-color: var(--first-color);
     padding: 3rem 1.5rem 3.5rem;
     margin-left: auto;
-    border-bottom: 4px solid var(--yellow-color);
+    border-bottom: 4px solid var(--white-color);
     z-index: 5;
     transition: background-color .4s;
 }
@@ -740,7 +749,8 @@ img{
 }
 
 .contact__input,
-.contact__button{
+.contact__button,
+.menu__button{
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     outline: none;
