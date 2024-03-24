@@ -496,7 +496,7 @@ img{
 
 .about__description{
     position: relative;
-    color: var(--black-color);
+    color: var(--white-color);
     margin-bottom: 1.5rem;
 }
 
@@ -606,6 +606,10 @@ img{
     color: var(--white-color);
 }
 
+.projects__button:hover{
+    background-color: var(--black-color);
+}
+
 .projects__content{
     margin-bottom: 1.25rem;
 }
@@ -634,6 +638,7 @@ img{
 .projects__title{
     font-size: var(--h3-font-size);
     margin-bottom: .75rem;
+    color: var(--white-color);
 }
 
 .projects__buttons{
@@ -673,6 +678,7 @@ img{
 .menu__button:hover{
     background-color: var(--black-color);
 }
+
 /* Contact */
 .contact{
     padding-bottom: 0;
@@ -895,7 +901,7 @@ img{
 }
 
 body.dark-theme{
-    --first-color: hsl(357, 36%, 47%);
+    --first-color: hsl(8,76%,52%);
     --black-color: hsl(0, 0% ,18%);
     --black-color-light: hsl(0, 0%, 30%);
     --text-color: hsl(0, 0%, 70%);
@@ -910,7 +916,7 @@ body.dark-theme{
 
 .dark-theme .section__title-1::after,
 .dark-theme .section__title-2::after{
-    background-color: hsla(357, 36%, 47%, .2);
+    background-color: hsla(8, 76%, 52%, .2);
 }
 
 .dark-theme :is(.home__arrow, .home__line, .about__line){
@@ -927,12 +933,8 @@ body.dark-theme{
     color: var(--title-color);
 }
 
-.dark-theme .projects__cards:hover{
-    background-color: hsl(0, 0%, 0%);
-}
-
 .dark-theme .home__description b{
-    background: linear-gradient(90deg, hsla(357, 36%, 50%, .3), hsla(14, 80%, 50%, 0));
+    background: linear-gradient(90deg, hsla(8,76%,52%, .9), hsla(14, 80%, 50%, 0));
 }
 
 .dark-theme :is(.contact__mail, .contact__input, .contact__label){
