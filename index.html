@@ -24,16 +24,18 @@
                     <h3 class="nav__name">Chicken Box</h3>
                     <ul class="nav__list">
                         <li class="nav__item">
-                            <a href="#home" class="nav__link">Home</a>
+                            <a href="#home" class="nav__link ">
+                                <span class="home_nav">Home</span>
+                            </a>
                         </li>
                         <li class="nav__item">
-                            <a href="#about" class="nav__link">About Us</a>
+                            <a href="#about" class="nav__link about_nav">About Us</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#projects" class="nav__link">Menu</a>
+                            <a href="#projects" class="nav__link menu_nav">Menu</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#contact" class="nav__link">Review Us</a>
+                            <a href="#contact" class="nav__link review_nav">Review Us</a>
                         </li>
                     </ul>
                     <div class="nav__close" id="nav-close">
@@ -47,6 +49,22 @@
                     <!-- Toggle button -->
                     <div class="nav__toggle" id="nav-toggle">
                         <i class="ri-menu-4-line"></i>
+                    </div>
+                </div>
+                <div class="langs dropdown">
+                    <a href="#" language="english" class="active dropbtn">
+                        <img src="assets/usa.png" alt="flag" class="flag-icon">
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="#" language="English" class="active">
+                            <img src="assets/usa.png" alt="flag" class="flag-icon">
+                        </a>
+                        <a href="#" language="Arabic">
+                            <img src="assets/saudi-arabia.png" alt="flag" class="flag-icon">
+                        </a>
+                        <a href="#" language="Turkish">
+                            <img src="assets/turkey.png" alt="flag" class="flag-icon">
+                        </a>
                     </div>
                 </div>
             </nav>
@@ -78,7 +96,7 @@
                             <div class="home__scroll-box">
                                 <i class="ri-arrow-down-s-line"></i>
                             </div>
-                            <span class="home__scroll-text"><b>Show More</b></span>
+                            <span class="home__scroll_text"><b>Show More</b></span>
                         </a>
                     </div>
                 </div>
@@ -86,7 +104,7 @@
             <!-- About -->
             <section class="about section" id="about">
                 <div class="about__container container grid">
-                    <h2 class="section__title-1">About Us</h2>
+                    <h2 class="section__title-1 aboutus">About Us</h2>
                     <div class="about__profile">
                         <div class="about__image">
                             <img src="assets/logo.png" alt="Image" class="about__img">
@@ -106,7 +124,7 @@
                             <div class="home__scroll-box about__scroll">
                                 <i class="ri-arrow-down-s-line"></i>
                             </div>
-                            <span class="home__scroll-text about__scroll-text">Show More</span>
+                            <span class="home__scroll_text about__scroll-text">Show More</span>
                         </a>
                         <!-- <div class="about__buttons">
                             <a href="#contact" class="button">
@@ -121,7 +139,7 @@
             </section>
             <!-- Projects -->
             <section class="projects section" id="projects">
-                <h2 class="section__title-1">
+                <h2 class="section__title-1 menu_title">
                     <span>What We Offer.</span>
                 </h2>
                 <div class="projects__container container grid">
@@ -135,8 +153,8 @@
                         </div>
                         <div class="projects__content">
                             <!-- <h3 class="projects__subtitle">Nextjs, Redux-Toolkit, Firebase, TailwindCSS, React-hook-form, Auth</h3> -->
-                            <h2 class="projects__title">Crispy Fried Chicken</h2>
-                            <p class="projects__description">
+                            <h2 class="projects__title crispy">Crispy Fried Chicken</h2>
+                            <p class="projects__description crispy_desc">
                                 Tender strips of fried chicken served with your choice of dipping sauce.
                             </p>
                         </div>
@@ -156,8 +174,8 @@
                         </div>
                         <div class="projects__content">
                             <!-- <h3 class="projects__subtitle">HTML, TailwindCSS, JavaScript, API</h3> -->
-                            <h2 class="projects__title">Box Combo</h2>
-                            <p class="projects__description">
+                            <h2 class="projects__title box_combo">Box Combo</h2>
+                            <p class="projects__description box_desc">
                                 A combination of our signature fried chicken with your choice of sides.
                             </p>
                         </div>
@@ -177,8 +195,8 @@
                         </div>
                         <div class="projects__content">
                             <!-- <h3 class="projects__subtitle">React, TypeScript, RestAPI</h3> -->
-                            <h2 class="projects__title">Chicken Wings</h2>
-                            <p class="projects__description">
+                            <h2 class="projects__title wings">Chicken Wings</h2>
+                            <p class="projects__description wings_desc">
                                 Crispy fried chicken wings tossed in your choice of sauce (Buffalo, BBQ, Honey Mustard, or Garlic Parmesan).
                             </p>
                         </div>
@@ -198,8 +216,8 @@
                         </div>
                         <div class="projects__content">
                             <!-- <h3 class="projects__subtitle">Nextjs, TailwindCSS, JavaScript</h3> -->
-                            <h2 class="projects__title">Crispy Sandwich</h2>
-                            <p class="projects__description">
+                            <h2 class="projects__title sandwich">Crispy Sandwich</h2>
+                            <p class="projects__description sandwich_desc">
                                 A succulent fried chicken breast served on a toasted bun with lettuce, tomato, and our special sauce.
                             </p>
                         </div>
@@ -219,8 +237,8 @@
                         </div>
                         <div class="projects__content">
                             <!-- <h3 class="projects__subtitle">HTML, CSS, JavaScript</h3> -->
-                            <h2 class="projects__title">Lotus Milkshake</h2>
-                            <p class="projects__description">
+                            <h2 class="projects__title lotus">Lotus Milkshake</h2>
+                            <p class="projects__description lotus_desc">
                                 A luscious blend of creamy milk and exotic lotus seed paste, topped with whipped cream and crushed lotus biscuits for a delightful treat.
                             </p>
                         </div>
@@ -240,8 +258,8 @@
                         </div>
                         <div class="projects__content">
                             <!-- <h3 class="projects__subtitle">HTML, CSS, JavaScript</h3> -->
-                            <h2 class="projects__title">Oreo Milkshake</h2>
-                            <p class="projects__description">
+                            <h2 class="projects__title oreo">Oreo Milkshake</h2>
+                            <p class="projects__description oreo_desc">
                                 A heavenly fusion of rich milk and crushed Oreo cookies, topped with whipped cream and Oreo crumbles for a decadent delight.
                             </p>
                         </div>
@@ -258,11 +276,11 @@
             <section class="contact section" id="contact">
                 <div class="contact__container grid">
                     <div class="contact__data">
-                        <h2 class="section__title-2">
+                        <h2 class="section__title-2 exp">
                             <span>Share Your Experience.</span>
                         </h2>
-                        <p class="contact__description-1">Your feedback matters! We'd love to hear about your experience at our restaurant.</p>
-                        <p class="contact__description-2">Share your thoughts and help us serve you better by leaving a review below. <br><b>Thank you for dining with us!</b></p>
+                        <p class="contact__description-1 desc1">Your feedback matters! We'd love to hear about your experience at our restaurant.</p>
+                        <p class="contact__description-2 desc2">Share your thoughts and help us serve you better by leaving a review below. <br><b>Thank you for dining with us!</b></p>
                         <div class="geometric-box"></div>
                     </div>
                     <div class="contact__mail">
@@ -270,12 +288,12 @@
                         <form action="" class="contact__form" id="contact-form">
                             <div class="contact__group">
                                 <div class="contact__box">
-                                    <input type="text" name="user_name" class="contact__input" id="name" required placeholder="Full Name">
-                                    <label for="name" class="contact__label">Full Name</label>
+                                    <input type="text" name="user_name" class="contact__input hname" id="name" required placeholder="Full Name">
+                                    <label for="name" class="contact__label fname">Full Name</label>
                                 </div>
                                 <div class="contact__box">
-                                    <input type="email" name="user_email" class="contact__input" id="email" required placeholder="Email Address">
-                                    <label for="email" class="contact__label">Email Address</label>
+                                    <input type="email" name="user_email" class="contact__input hemail" id="email" required placeholder="Email Address">
+                                    <label for="email" class="contact__label email">Email Address</label>
                                 </div>
                             </div>
                             <!-- <div class="contact__box">
@@ -283,8 +301,8 @@
                                 <label for="subject" class="contact__label">Subject</label>
                             </div> -->
                             <div class="contact__box contact__area">
-                                <textarea name="user_message" id="message" class="contact__input" required placeholder="Message"></textarea>
-                                <label for="message" class="contact__label">Message</label>
+                                <textarea name="user_message" id="message" class="contact__input " required placeholder="Message"></textarea>
+                                <label for="message" class="contact__label message">Message</label>
                             </div>
                             <p class="contact__message" id="contact-message"></p>
                             <button type="submit" class="contact__button button">
@@ -300,13 +318,13 @@
             <div class="footer__container container grid">
                 <ul class="footer__links">
                     <li>
-                        <a href="#" class="footer__link">Home</a>
+                        <a href="#" class="footer__link home_nav">Home</a>
                     </li>
                     <li>
-                        <a href="#about" class="footer__link">About Us</a>
+                        <a href="#about" class="footer__link about_nav">About Us</a>
                     </li>
                     <li>
-                        <a href="#projects" class="footer__link">Menu</a>
+                        <a href="#projects" class="footer__link menu_nav">Menu</a>
                     </li>
                 </ul>
                 <span class="footer__copy">
@@ -319,6 +337,7 @@
         <script src="js/scrollreveal.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
         <script src="js/main.js"></script>
+        <script src="js/lang.js"></script>
     </body>
 
 </html>

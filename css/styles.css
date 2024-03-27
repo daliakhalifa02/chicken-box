@@ -384,7 +384,7 @@ img{
     margin: 0 auto;
 }
 
-.home__scroll-text{
+.home__scroll_text{
     display: none;
 }
 
@@ -1132,10 +1132,11 @@ body.dark-theme{
         column-gap: .75rem;
     }
 
-    .home__scroll-text{
+    .home__scroll_text{
         display: block;
         color: var(--text-color);
         font-size: medium;
+        font-weight: bold;
     }
 
     .home__scroll-box{
@@ -1232,6 +1233,7 @@ body.dark-theme{
 
     .about__scroll-text{
         color: var(--white-color);
+        font-weight: lighter;
     }
 
     .about__description::after{
@@ -1347,4 +1349,58 @@ body.dark-theme{
         column-gap: 3rem;
         order: 1;
     }
+}
+
+
+/* Style the dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style the default button */
+.dropbtn {
+    background-color: #fff;
+    color: #333;
+    /* padding: 10px; */
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 60px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    /* right: -0.1px; */
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style the flag icons */
+.dropdown img {
+    width: 24px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    /* margin-right: 10px; Adjust spacing */
 }
