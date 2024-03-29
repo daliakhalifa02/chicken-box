@@ -137,7 +137,7 @@ let data = {
         menu__button:"View All Menu",
         exp:"Share Your Experience",
         desc1:"Your feedback matters! We'd love to hear about your experience at our restaurant.",
-        desc2:`Share your thoughts and help us serve you better by leaving a review below.<br> Thank you for dining with us!`,
+        desc2:`Share your thoughts and help us serve you better by leaving a review below. Thank you for dining with us!`,
         contact__title:"Leave A Message",
         fname:"Full Name",
         email:"Email Address",
