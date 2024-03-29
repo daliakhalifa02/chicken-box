@@ -112,7 +112,7 @@ let data = {
         hemail:"البريد الإلكتروني",
         hmessage:"الرسالة",
         home_nav:"الصفحة الرئيسية",
-        about_nav:"حولنا",
+        about_nav:"من نحن",
         menu_nav:"قائمة الطعام",
         review_nav:"تقييم",
     },
@@ -211,3 +211,43 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
   
+
+// document.addEventListener("DOMContentLoaded", function() {
+//     // Function to update language and flag
+//     function updateLanguage(event) {
+//         event.preventDefault();
+
+//         // Get the language and flag from the clicked link
+//         var language = this.getAttribute('data-language');
+//         var flag = this.querySelector('.flag-icon').cloneNode(true);
+
+//         // Update the dropdown button text and flag
+//         var dropbtn = document.querySelector('.dropbtn');
+//         dropbtn.innerHTML = ''; // Clear existing content
+//         dropbtn.appendChild(flag);
+//         dropbtn.appendChild(document.createTextNode(language));
+
+//         // Remove event listener from dropdown button
+//         dropbtn.removeEventListener('click', openDropdown);
+
+//         // Reattach event listener to dropdown button
+//         dropbtn.addEventListener('click', openDropdown);
+//     }
+
+//     // Function to open dropdown
+//     function openDropdown() {
+//         this.nextElementSibling.classList.toggle('show');
+//     }
+
+//     // Get all language links
+//     var langLinks = document.querySelectorAll('.dropdown-content a');
+
+//     // Add click event listener to each language link
+//     langLinks.forEach(function(link) {
+//         link.addEventListener('click', updateLanguage);
+//     });
+
+//     // Add click event listener to dropdown button
+//     var dropbtn = document.querySelector('.dropbtn');
+//     dropbtn.addEventListener('click', openDropdown);
+// });

@@ -352,7 +352,7 @@ img{
 }
 
 .home__social-link{
-    background-color: var(--black-color-light);
+    background-color: var(--first-color);
     color: var(--white-color);
     font-size: 1.25rem;
     padding: 6px;
@@ -1281,12 +1281,12 @@ body.dark-theme{
         right: 1.25rem;
     }
 
-    .menu__button{
+    /* .menu__button{
         position: absolute;
         top: 150rem;
         left: 50%; /* Adjust as needed */
-    transform: translateX(-50%);
-    }
+    /* transform: translateX(-50%);
+    } */ 
 
     .contact__container{
         grid-template-columns: 440px 670px;
